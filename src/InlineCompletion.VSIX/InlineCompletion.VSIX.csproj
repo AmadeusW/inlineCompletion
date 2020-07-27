@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CompletionTagger.cs" />
+    <Compile Include="JinusTagger.cs" />
+    <Compile Include="CompletionTaggerProvider.cs" />
     <Compile Include="InlineCompletionPresenter.cs" />
     <Compile Include="InlineCompletionPresenterProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

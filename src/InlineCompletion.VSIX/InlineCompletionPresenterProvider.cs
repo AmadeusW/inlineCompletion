@@ -20,7 +20,7 @@ namespace InlineCompletion.VSIX
 
         public ICompletionPresenter GetOrCreate(ITextView textView)
         {
-            return new InlineCompletionPresenter(this);
+            return new InlineCompletionPresenter(this, textView);
         }
     }
 }
